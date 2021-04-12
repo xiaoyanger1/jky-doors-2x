@@ -136,7 +136,7 @@
             this.page_watertight.Controls.Add(this.groupBox7);
             this.page_watertight.Location = new System.Drawing.Point(4, 30);
             this.page_watertight.Name = "page_watertight";
-            this.page_watertight.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.page_watertight.Padding = new System.Windows.Forms.Padding(3);
             this.page_watertight.Size = new System.Drawing.Size(1143, 587);
             this.page_watertight.TabIndex = 1;
             this.page_watertight.Text = "水密监控";
@@ -293,6 +293,7 @@
             this.tChart_sm.BackColor = System.Drawing.Color.White;
             this.tChart_sm.ContextMenuStrip = this.chart_cms_sm_click;
             this.tChart_sm.Cursor = System.Windows.Forms.Cursors.Default;
+            this.tChart_sm.Dock = System.Windows.Forms.DockStyle.Fill;
             // 
             // 
             // 
@@ -302,7 +303,7 @@
             // 
             // 
             this.tChart_sm.Legend.Visible = false;
-            this.tChart_sm.Location = new System.Drawing.Point(7, 21);
+            this.tChart_sm.Location = new System.Drawing.Point(3, 17);
             this.tChart_sm.Name = "tChart_sm";
             // 
             // 
@@ -316,7 +317,7 @@
             this.tChart_sm.Panel.MarginRight = 2D;
             this.tChart_sm.Panel.MarginTop = 0D;
             this.tChart_sm.Series.Add(this.sm_Line);
-            this.tChart_sm.Size = new System.Drawing.Size(840, 420);
+            this.tChart_sm.Size = new System.Drawing.Size(847, 427);
             this.tChart_sm.TabIndex = 0;
             this.tChart_sm.MouseDown += new System.Windows.Forms.MouseEventHandler(this.tChart_sm_MouseDown);
             // 
@@ -470,7 +471,7 @@
             // 
             this.btn_tzbd.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btn_tzbd.Location = new System.Drawing.Point(200, 47);
-            this.btn_tzbd.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_tzbd.Margin = new System.Windows.Forms.Padding(2);
             this.btn_tzbd.Name = "btn_tzbd";
             this.btn_tzbd.Size = new System.Drawing.Size(71, 21);
             this.btn_tzbd.TabIndex = 10;
@@ -483,7 +484,7 @@
             // 
             this.btn_ksbd.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btn_ksbd.Location = new System.Drawing.Point(201, 0);
-            this.btn_ksbd.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_ksbd.Margin = new System.Windows.Forms.Padding(2);
             this.btn_ksbd.Name = "btn_ksbd";
             this.btn_ksbd.Size = new System.Drawing.Size(71, 24);
             this.btn_ksbd.TabIndex = 11;
@@ -616,7 +617,7 @@
             this.rdb_wdjy.AutoSize = true;
             this.rdb_wdjy.Checked = true;
             this.rdb_wdjy.Location = new System.Drawing.Point(77, 1);
-            this.rdb_wdjy.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.rdb_wdjy.Margin = new System.Windows.Forms.Padding(2);
             this.rdb_wdjy.Name = "rdb_wdjy";
             this.rdb_wdjy.Size = new System.Drawing.Size(75, 16);
             this.rdb_wdjy.TabIndex = 21;
@@ -638,7 +639,7 @@
             // 
             this.rdb_bdjy.AutoSize = true;
             this.rdb_bdjy.Location = new System.Drawing.Point(178, 0);
-            this.rdb_bdjy.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.rdb_bdjy.Margin = new System.Windows.Forms.Padding(2);
             this.rdb_bdjy.Name = "rdb_bdjy";
             this.rdb_bdjy.Size = new System.Drawing.Size(75, 16);
             this.rdb_bdjy.TabIndex = 22;

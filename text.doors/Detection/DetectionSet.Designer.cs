@@ -1267,6 +1267,8 @@
             this.MinimizeBox = false;
             this.Name = "DetectionSet";
             this.Text = "检验参数设置";
+            //this.Load += new System.EventHandler(this.DetectionSet_Load);
+            //this.SizeChanged += new System.EventHandler(this.DetectionSet_SizeChanged);
             this.tabControl1.ResumeLayout(false);
             this.检验参数设置.ResumeLayout(false);
             this.检验参数设置.PerformLayout();

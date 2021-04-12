@@ -26,6 +26,8 @@ namespace text.doors.Detection
         private string _tempCode = "";
         private string _tempTong = "";
 
+        AutoSizeFormClass asc = new AutoSizeFormClass();
+
         private TCPClient tcpClient;
 
         public DetectionSet() { }
@@ -401,5 +403,14 @@ namespace text.doors.Detection
         }
         #endregion
 
+        //private void DetectionSet_Load(object sender, EventArgs e)
+        //{
+        //    asc.controllInitializeSize(this);
+        //}
+
+        //private void DetectionSet_SizeChanged(object sender, EventArgs e)
+        //{
+        //    asc.controlAutoSize(this);
+        //}
     }
 }

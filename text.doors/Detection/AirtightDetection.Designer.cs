@@ -83,11 +83,12 @@
             // tc_RealTimeSurveillance
             // 
             this.tc_RealTimeSurveillance.Controls.Add(this.page_airtight);
+            this.tc_RealTimeSurveillance.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tc_RealTimeSurveillance.ItemSize = new System.Drawing.Size(120, 26);
             this.tc_RealTimeSurveillance.Location = new System.Drawing.Point(0, 0);
             this.tc_RealTimeSurveillance.Name = "tc_RealTimeSurveillance";
             this.tc_RealTimeSurveillance.SelectedIndex = 0;
-            this.tc_RealTimeSurveillance.Size = new System.Drawing.Size(1151, 621);
+            this.tc_RealTimeSurveillance.Size = new System.Drawing.Size(1153, 628);
             this.tc_RealTimeSurveillance.TabIndex = 0;
             // 
             // page_airtight
@@ -104,7 +105,7 @@
             this.page_airtight.Location = new System.Drawing.Point(4, 30);
             this.page_airtight.Name = "page_airtight";
             this.page_airtight.Padding = new System.Windows.Forms.Padding(3);
-            this.page_airtight.Size = new System.Drawing.Size(1143, 587);
+            this.page_airtight.Size = new System.Drawing.Size(1145, 594);
             this.page_airtight.TabIndex = 0;
             this.page_airtight.Text = "气密监控";
             // 

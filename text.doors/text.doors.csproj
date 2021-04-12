@@ -96,6 +96,7 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Common\AutoSizeFormClass.cs" />
     <Compile Include="Detection\AirtightDetection.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -137,7 +138,6 @@
       <DependentUpon>SystemManager.cs</DependentUpon>
     </Compile>
     <Compile Include="Model\Calibrating_Dict.cs" />
-    <Compile Include="Model\DataBase\Model_dt_kfy_Info.cs" />
     <Compile Include="Model\Pressure.cs" />
     <Compile Include="Default\BFMCommand.cs" />
     <Compile Include="Default\PublicEnum.cs" />
@@ -145,7 +145,6 @@
     <Compile Include="Service\DAL_Demarcate_Dict.cs" />
     <Compile Include="Service\DAL_dt_BaseSet.cs" />
     <Compile Include="Service\DAL_dt_Info.cs" />
-    <Compile Include="Service\DAL_dt_kfy_Info.cs" />
     <Compile Include="Service\DAL_dt_qm_Info.cs" />
     <Compile Include="Service\DAL_dt_Settings.cs" />
     <Compile Include="Detection\ComplexAssessment.cs">
